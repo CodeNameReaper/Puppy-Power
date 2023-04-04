@@ -1,4 +1,132 @@
-h1
-{
-    color: blue;
+*{
+    box-sizing: border-box;
+    margin: 0 0em;
+    padding: 0;
+    font-family: 'Kumh Sans', sans-serif;
+    scroll-behavior: smooth;
 }
+
+/* NAVBAR */
+.navbar{
+    background: rgb(1, 5, 7);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 30px;
+}
+
+#navbar-logo{
+    background-color: #4484a4;
+    background-image: linear-gradient(to top, #63cfb9 0%, #121c5c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2.2em;
+    min-width: 350px;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-item{
+    height: 80px;
+}
+
+.navbar-links{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.2s ease;
+}
+
+.navbar-btn{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 1em;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    /* gradient from gradientUI */
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    transition: all 0.3 ease;
+}
+
+.navbar-links:hover{
+    color: rgb(176, 26, 246);
+    transition: all 0.4s ease;
+}
+
+.highlight{
+    border-bottom: 4px solid rgb(132, 0, 255);
+}
+/* NAVBAR END */
+
+/* MAIN CONTENT */
+main{
+    margin: 0 .5em; 
+}
+
+.home-container{
+    min-height: 800px;
+}
+
+.about-container{
+    min-height: 800px;
+}
+
+.events-container{
+    min-height: 800px;
+}
+
+.contact-container{
+    min-height: 800px;
+}
+
+.adopt-container{
+    min-height: 1000px;
+}
+/* MAIN CONTENT END*/
+
+/* FOOTER */
+
+/* FOOTER END*/

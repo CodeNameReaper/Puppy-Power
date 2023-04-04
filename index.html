@@ -2,36 +2,89 @@
 <html lang="en">
 
 <head>
-  <title>Main Page</title>
+  <title>Casa de Perritos</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- Bootstrap CSS v5.2.1 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    -->
 </head>
 
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+        <a href="#home" id="navbar-logo">Casa de Perritos</a>
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="#home" class="navbar-links" id="home-page">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#about" class="navbar-links" id="about-page">About Us</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#events" class="navbar-links" id="events-page">Events</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-links" id="contact-page">Contact</a>
+            </li>
+            <li class="navbar-btn">
+                <a href="#adopt" class="button" id="adopt-page">ADOPT</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <!-- Navbar End -->
   <main>
-    <h1>Casa de Perritos</h1>
-
+      <!-- Home section -->
+      <div class="home" id="home">
+        <div class="home-container">
+            <h1 class="home-heading">Hello, We are <span>Casa de Perritos</span></h1>
+        </div>
+      </div>
+      <!-- About section -->
+      <div class="about" id="about">
+        <div class="about-container">
+            <h1 class="about-heading">About us</h1>
+            <p class="about-description">We save puppies</p>
+        </div>
+      </div>
+      <!-- Events section -->
+      <div class="events" id="events">
+        <div class="events-container">
+          <h1 class="about-heading">Upcoming events</h1>
+          <p class="about-description">Puppy Showcase</p>
+        </div>
+      </div>
+      <!-- Contact section -->
+      <div class="contact" id="contact">
+        <div class="contact-container">
+          <h1 class="about-heading">Call us!</h1>
+          <p class="about-description">555-555-5555</p>
+        </div>
+      </div>
+      <!-- Adopt section -->
+      <div class="adopt" id="adopt">
+        <div class="adopt-container">
+          <h1 class="about-heading">Adopt a puppy</h1>
+          <img src="https://www.thesprucepets.com/thmb/c87ds9hUAWMY1CnseyH-7oxRkOA=/2121x0/filters:no_upscale():strip_icc()/golden-retriever-puppy-in-grass-923135452-5c887d4146e0fb00013365ba.jpg" height="200px">
+        </div>
+      </div>
   </main>
   <footer>
     <!-- place footer here -->
   </footer>
-  <!-- Bootstrap JavaScript Libraries -->
+  <script src = "./js/index.js"></script>
+  <!-- Bootstrap JavaScript Libraries 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+  </script> -->
 </body>
-
 </html>
