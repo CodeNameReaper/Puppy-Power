@@ -58,3 +58,31 @@ const closeMobileMenu =  () => {
 menuItems.addEventListener('click', closeMobileMenu);
 navLogo.addEventListener('click', closeMobileMenu);
 */
+
+// Select the contact form
+const contactForm = document.querySelector('#contact-form');
+
+// Add event listener for form submission
+contactForm.addEventListener('submit', function(event) {
+  // Prevent default form submission behavior
+  event.preventDefault();
+  
+  // Get the form data
+  const formData = new FormData(this);
+  
+  // Send an AJAX request to the server
+  fetch('process-contact-form.php', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.text())
+  .then(data => {
+    // Handle the server response
+    alert(data);
+    this.reset();
+  })
+  .catch(error => {
+    console.error(error);
+    alert('An error occurred while submitting the form.');
+  });
+});
