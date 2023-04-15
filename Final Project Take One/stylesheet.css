@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #b5a1f1;
+    padding-bottom: 58px;
+    min-height: 100vh;
+  }
+  
+  .card {
+    color: #0df192;
+  }
+  
+  .header {
+    font-size: 40px;
+    color: #0df192;
+    text-align: center;
+    font-family: "Lucida Handwriting";
+    padding: 14px 16px;
+  }
+  
+  .header h1 {
+    font-size: 60px;
+    color: #dddde4;
+    text-align: center;
+    font-family: "Lucida Handwriting";
+    padding: 14px 16px;
+  }
+  
+  .header h2 {
+    font-size: 60px;
+    color: #e20a0a;
+    text-align: center;
+    font-family: "Lucida Handwriting";
+    padding: 14px 16px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    
+  .topnav {
+    overflow: hidden;
+    background-image: url("Images/wood12.jfif");
+  }
+    
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Lucida Handwriting";
+  }
+    
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: rgb(179, 35, 9);
+    }
+    
+  .leftcolumn {   
+    float: center;
+    width: 50%;
+  }
+    
+  .card {
+    background-color: rgb(22, 61, 235);
+    padding: 30px;
+    margin-top: 20px;
+  }
+     
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(15, 15, 15); 
+  }
+  
+  .fa {
+    font-size: 40px;
+    text-align: center;
+  }
+   
+  h1 {
+    font-size: 20px;
+    color: #e60712;
+    text-align: center;
+  }
+    
+  h2 {
+    font-size: 30px;
+    color: #111110;
+    text-align: left;
+  }
+  
+  h3 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: #6868fd;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h4 {
+    font-size: 30px;
+    color: #f9fcf4;
+    text-align: center;
+  }
+  
+  h5 {
+    font-size: 30px;
+    color: #e60712;
+    text-align: left;
+  }
+  
+  h5 {
+    border-style: solid;
+    border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+    color: #f3eced;
+  }
+  
+  h6 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #e60712;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #e9e911;
+    text-align: left;
+  }
+  
+  .desc {
+    font-size: 30px;
+    color: #ffef0d;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+    
+  .fa:hover {
+    opacity: 0.7;
+  }
+    
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+    
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+    
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+    
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+    
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+    
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+    
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
